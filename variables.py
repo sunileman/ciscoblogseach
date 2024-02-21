@@ -1,12 +1,9 @@
 openai_api_type = "azure"
-openai_api_sa_base = "https://sa-openai.openai.azure.com"
-openai_api_base = "https://sunman-oai.openai.azure.com"
+openai_api_sa_base = "https://xxxxx.openai.azure.com"
+openai_api_base = "https://xxxx.openai.azure.com"
 openai_embedding_deployment_name = "ada-002"
 openai_api_version = "2024-02-15-preview"
 openai_completion_deployment_name = "gpt-4-32k"
-index_name = 'ordercodes_openai'
-elser_index_name = 'ordercodes_combined-relevancy'
-ada002_index_name = 'ordercodes_openai'
 byom_index_name = 'cisco-search-blogs-byom'
 number_of_dims = 768
 similarity = "cosine"
